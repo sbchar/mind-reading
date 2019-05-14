@@ -1,0 +1,58 @@
+html,body{
+    height: 100%;
+    margin: 0;
+}
+
+.wrap{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left{
+    width: 300px;
+    /* border: 1px solid; */
+}
+
+.left .img-board{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    cursor: pointer;
+}
+
+.left .img-board .round{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.right{
+    width: 500px;
+    height: 500px;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    grid-auto-flow: column;
+}
+
+.wrap .left p{
+    text-indent: 2em;
+}
+
+.wrap .right .item .num{
+    display: inline-block;
+    width: 30px;
+    text-align: right;
+    margin-right: .5em;
+    vertical-align: middle;
+}
+.wrap .right .item img{
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+}
+
