@@ -1,7 +1,7 @@
 # mind-reading
 读心术，读取你心中所想数字
 
-####CSS布局
+#### CSS布局
 * 整体使用flex实现两栏居中布局
 * 左栏盒内元素水平垂直居中
     * 自身设绝对定位，left和top设50%，配合C3属性transform:translate(-50%, -50%);
