@@ -8,5 +8,5 @@
 * 右栏使用grid实现网格平均分布
     * 单位fr，实现网格按比例分配
     * repeat()函数重复同样的值
-    * grid-template-columns：定义每列列宽
+    * grid-template-columns：定义每5列列宽
     * grid-template-rows：定义每行行高
